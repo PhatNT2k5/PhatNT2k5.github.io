@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phat Nguyen - Portfolio</title>
+    <link rel="stylesheet" href="css/css_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span class="logo-text">Phat Nguyen</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="darkModeToggle" class="theme-btn" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Phat Nguyen</span></h1>
+                <p class="hero-subtitle">AI/ML Enthusiast</p>
+                <p class="hero-description">
+                    I build innovative solutions combining web development, machine learning, and game development.
+                    Passionate about creating impactful projects that solve real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-placeholder">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a passionate programmer with experience in building applications, implementing AI/ML solutions, and creating engaging games. 
+                        With a foundation in programming languages and frameworks, 
+                        I aim to develop projects that bring value from the knowledge I have acquired.
+                    </p>
+                    <p>
+                        My journey started with game development (Flappy Bird clone + Computer Vision, AI Tetris) 
+                        to enterprise systems (Student Evaluation, Academic Advising), 
+                        and AI projects applied to everyday life (Face Recognition, Face Anti Spoofing, Attendance System, Vertical Search Tools). 
+                    </p>
+                    <p>
+                        I believe in continuous learning and staying updated with the latest technologies. 
+                        When I'm not coding, you can find me exploring new tech trends or working on 
+                        side projects that push my boundaries.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>6+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Academic years</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3.75/4.0 (current)</h3>
+                        <p>GPA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Facial Recognition System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-face-smile"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/PhatNT2k5/Fas-recognition-attendance-system" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Facial Recognition Attendance System</h3>
+                        <p>AI-powered attendance system using facial recognition technology.  Leverages Python and computer vision to automate attendance tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Academic Advising System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/PhatNT2k5/Academic-Advising-System" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Academic Advising System</h3>
+                        <p>Web-based system for managing academic advising.  Provides course recommendations and student guidance through an intuitive interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Web Dev</span>
+                            <span class="tag">Database</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Login System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/PhatNT2k5/Login-sytem" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Authentication System</h3>
+                        <p>Secure login and authentication system with user management. Implements best practices for password handling and session management.</p>
+                        <div class="project-tags">
+                            <span class="tag">Security</span>
+                            <span class="tag">Backend</span>
+                            <span class="tag">Authentication</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Tetris AI Game -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/PhatNT2k5/TetrisAIgame" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tetris AI Game</h3>
+                        <p>Advanced Tetris implementation with AI capabilities. Features intelligent algorithms for game play and learning mechanics.</p>
+                        <div class="project-tags">
+                            <span class="tag">Game Dev</span>
+                            <span class="tag">AI/Algorithm</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Flappy Bird Clone -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/PhatNT2k5/FlappyWukong" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Flappy Wukong Game</h3>
+                        <p>Creative game development project - a Flappy Bird inspired game with custom character and mechanics.  Demonstrates game design principles.</p>
+                        <div class="project-tags">
+                            <span class="tag">Game Dev</span>
+                            <span class="tag">Graphics</span>
+                            <span class="tag">Gameplay</span>
+                            <span class="tag">Hand Gesture Recognition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Vertical Search Engine -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/xuantrung-DA/Vertical-Search-Engine" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Vertical Search Engine</h3>
+                        <p>Specialized search engine for vertical domain search. Implemented efficient indexing and ranking algorithms for domain-specific content.</p>
+                        <div class="project-tags">
+                            <span class="tag">Backend</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Data Structure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML/CSS</span>
+                        <span class="skill-item">Flask</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Database Design</span>
+                        <span class="skill-item">N8n</span>
+                        <span class="skill-item">APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI/ML</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Computer Vision</span>
+                        <span class="skill-item">OpenCV</span>
+                        <span class="skill-item">Deep Learning</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">Keras</span>
+                        <span class="skill-item">Scikit-Learn</span>
+                        <span class="skill-item">PyTorch</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-gamepad"></i> Game + AI Integration</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AI-Powered Game Logic</span>
+                        <span class="skill-item">Hand Gesture Recognition</span>
+                        <span class="skill-item">Computer Vision</span>
+                        <span class="skill-item">Real-time Game Control</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git/GitHub</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Arduino</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cube"></i> Other</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Problem Solving</span>
+                        <span class="skill-item">Team Collaboration</span>
+                        <span class="skill-item">System Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Feel free to reach out to me for opportunities or just a friendly hello!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:phatnt200605@gmail.com">phatnt200605@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Vietnam</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+84916200605">+84916200605</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/PhatNT2k5" class="social-link" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ph%C3%A1t-nguy%E1%BB%85n-a2a3281ba/" class="social-link" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nguyen.thanh.phat.119838" class="social-link" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Phat Nguyen. All rights reserved.</p>
+            <p>Built with <span style="color: #e74c3c;">❤</span> using AI, HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="js/js_script.js"></script>
+</body>
+</html>
